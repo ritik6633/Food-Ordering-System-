@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Here</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {
+            background-color: #f6f2f2;
+            box-shadow: 10px 12px #888888;
+            width: 1130px;
+            height: 500px;
+            position:relative;
+            left:70px;
+            top: 40px;
+            border-radius: 25px;
+           
+            
+        }
+        .text
+        {
+            position: relative;
+            left:90px;
+            width: 400px;
+            height: 30px;
+            border-radius: 5px;
+            /* border:none; */
+            background-color:aliceblue;
+            box-shadow: 10px 10px #888888;
+            margin:10px;
+            padding:10px;
+            border-width: 0.9px;
+            color: rgb(135, 49, 63);
+        }
+        
+        .btn
+        {
+            position: relative;
+            left: 45%;
+            width:94px;
+            height: 40px;
+            background-color: rgb(27, 146, 27);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: large;
+        }
+        .btn:hover{
+            background-color:aqua;
+            color:red;
+
+        }
+    </style>
+</head>
+<body>
+        <form action="order" method="post">
+        <div class="container">
+            <h1 style="text-align:center;position:relative;top:30px;color:green;">Here you can Fill the details and Items  &#128540;</h1>
+            <h3 style="text-align:center;position:relative;top:30px;color:black;font-size:30px;" >Fill the documents given below</h3>
+       
+        <table>
+            <tr>
+                <td><input type="text" class="text" placeholder="Enter Your Name" name="sname" required></td>
+                <td><input type="text" class="text" placeholder="Enter Your Email Address" name="email" required></td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td><input type="text" class="text" placeholder="Country" name="country" required></td>
+                <td><input type="text" class="text" placeholder="Enter Your Mobile No" name="mob" required></td>
+            </tr>
+            
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td><input type="Number" class="text" placeholder="items" name="items" required></td>
+                <td><input type="text" class="text" placeholder="Address" name="amount" required></td>
+            </tr>
+            
+        </table>
+        
+        <br>
+        <!--<button class="btn"><a href="pay1.html"  type="submit">Pay</a></button>-->
+        <input class="btn" type="submit" value="pay">
+    </div>
+    </form>
+</body>
+</html>

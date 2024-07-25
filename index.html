@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-pati</title>
+    <style>
+        body{
+            height: 1400px;
+            width: 1200px;
+        }
+        ul{
+            
+            display:inline-flex;
+            grid-template-columns: auto auto;
+            margin: 15px;
+            position:relative;
+            left: 35%;
+            font-size: 20px; 
+            
+        }
+        ul li{
+            list-style-type: none;
+            margin: 0 20px;
+            position:left;
+            align-items:center;
+            color:black;  
+            
+        }
+        img{
+            height: 600px;
+            width: 1255px;
+            border-radius: 10px;
+            
+        }
+/*        .button{
+            position: relative;
+            left:34%;
+            height: 28px;
+            width: 80px;
+            font-size: 12px;
+            background-color: white;
+            color: black;
+            border-color: black;
+            border-radius: 5px;
+            text-decoration:none ;
+        
+        }*/
+        .bhai{
+            height: 33px;
+            width: 209px;
+            position: relative;
+            left: 4%;
+         
+        }
+        .aay{
+            text-align: center;
+            font: size 50px;;
+        }
+        
+        
+            
+        
+        .monster{
+            width: 470px;
+            margin: 18px;
+            padding: 29px;
+            font-size: 285%;
+            color: black;
+        }
+        .gangster{
+            width: 400px;
+            position: relative;
+            left: 4%;
+            top: 2%;
+            bottom: 10%;
+            color: black;
+            height: 100px;
+        }
+        .final{
+            
+            height: 30px;
+            background-color: black;
+            color: white;
+            padding: 30px;
+            width: 1250px;
+            word-spacing: 3px;
+            text-align: center;
+        }
+        #button{
+            background-color:rgb(51, 156, 51);
+            color:white;
+            border-radius: 4px;
+            height: 30px;
+            width: 100px;
+            font-size: medium;
+            font-weight: bold;
+            border: none;
+        }
+        ul li a:hover,
+        a.active{
+            color:rgb(16,175,189);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="bhai" src="images/Chat-Pati new2.png">
+            <ul>
+                <li><a class="active" style="text-decoration:none ;" href="#"> Home</a></li>
+                <li><a style="text-decoration:none ;" href="about.html">About</a></li>
+                <li><a style="text-decoration:none ;" href="Contact.html">Contact Us</a></li>
+                <li><a style="text-decoration:none ;" href="login.html">Admin-Login</a></li>
+            </ul>
+<!--            <button  class="button"><a href="Signup.html"> Sign Up</a></button>-->
+        </nav>
+    </header>
+    <div>
+    <img src="images/f2.jpg">
+    <h1 class="aay">MOST RATED DIET</h1>
+    <table >
+        <thead style="position:relative;left: 2%;" >
+            <tr>
+            <th ><img style="width: 300px; height: 200px;" src="images/chicken-tikka-recipe.jpg"></th>
+            <th ><img style="width: 300px; height: 200px;" src="images/burger.jpg"></th>&emsp13;
+            <th><img style="width: 300px; height: 200px;"src="images/burger1.webp"></th>&emsp13;&emsp13;
+            <th><img style="width: 300px; height: 200px;"src="images/desi.jpg"></th>
+        </tr>
+        </thead>
+        <tbody style="position:relative;left: 5%; font-size:20px;" >
+            <tr style="font-family:Georgia;font-weight: 900;">
+                <td>Chicken-Tikka</a></td>
+                <td>Pasta-lollipop</td>
+                <td>French-Fries</td>
+                <td>Desi-Thali</td>
+            </tr>  
+            <tr>
+                <td>Rs.300</td>
+                <td>Rs.300</td>
+                <td>Rs.300</td>
+                <td>Rs.300</td>
+            </tr> 
+            <tr>
+                <td><a href="order1.html"><input type="button" value="Order-Now" id="button"></a></td>
+                <td><a href="order1.html"><input type="button" value="Order-Now" id="button"></a></td>
+                <td><a href="order1.html"><input type="button" value="Order-Now" id="button"></a></td>
+                <td><a href="order1.html"><input type="button" value="Order-Now" id="button"></a></td>
+            </tr>
+        </tbody>
+        
+    </table> 
+    <br><br><br><br>
+    <table>
+        <thead>
+            <tr>
+                <th><h1> A DAY WITH CHAT-PATI &#128540;</h1>
+                    <h3 class="gangster">Explore restaurants that deliver near you, or try yummy takeout fare. 
+                        With a place for every taste, it's easy to find food you crave, and order online or through the Grubhub app.
+                        Find great meals fast with lots of local menus.Enjoy eating the convenient way with places that deliver to your door.</h3></th>
+                <th><img style="width: 700px; height: 300px; position: relative;left: 20%;" src="images/having food.jpg"></th>
+            </tr>
+        </thead>
+    </table>
+    <h1 style="text-align:center;">Product Features</h1>
+    <table>
+        <thead>
+            <tr>
+                <th><img style="width: 300px; height: 50px;position:relative;left:12%;" src="images/f1.svg"></th>
+                <th><img style="width: 200px; height: 50px;position:relative;left:20%;" src="images/f2.svg"></th>
+                <th><img style="width: 200px; height: 50px;position:relative;left: 15%;" src="images/f3.svg"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="position:relative;left:5%;"><h2>Dynamic Minimum Order</h2></td>
+                <td style="position:relative;left:20%;"><h2>Pre-Order</h2></td>
+                <td style="position:relative;left:19%;"><h2> Schedule Changes</h2></td>
+            </tr>
+            <tr>
+            <td style="width: 10px; height: 50px; position:relative; left: 5%;"><h4>Set custom minimum food online order values for different delivery location</h4></td>
+            <td style="height: 50px; position:relative; left:8%;"><h4>Let your customers order in advance & schedule their deliveries</h4></td>
+            <td style="height: 50px; position:relative; left: 6%;"><h4>Schedule menu changes based on the time and day the menu has to be displayed</h4></td>
+        </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th><img style="width: 300px; height: 50px;position:relative;left:12%;" src="images/f4.svg"></th>
+                <th><img style="width: 200px; height: 50px;position:relative;left:8%;" src="images/f5.svg"></th>
+                <th><img style="width: 200px; height: 50px;position:relative;left: 10%;" src="images/f6.svg"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="position:relative;left:12%;"><h2>Secure</h2></td>
+                <td style="position:relative;left:17%;"><h2>No Commissions</h2></td>
+                <td style="position:relative;left:13%;"><h2> Unlimited Orders</h2></td>
+            </tr>
+            <tr>
+            <td style="width: 10px; height: 50px; position:relative; left: 5%;"><h4>Your Order Online page is completely secure & comes with free SSL certificates</h4></td>
+            <td style="height: 50px; position:relative; left:6%;"><h4>With your own branded restaurant online food ordering system, your customers can place orders .</h4></td>
+            <td style="height: 50px; position:relative; left: 6%;"><h4>Schedule menu changes based on the time and day the menu has to be displayed</h4></td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="final">
+        <thead>
+            <tr>
+                <th style="position:relative;left:12%;"><h3 >All copyright  &copy;  are reserved by Amit Akshay and Yesh</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="font-size:20px;position:relative;right:12%;">
+                <td>Contact : +91-6206911542</td>
+                <td>Email : Chatpati@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

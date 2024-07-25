@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact-Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container
+        {
+            background-color: #f6f2f2;
+            box-shadow: 10px 12px #888888;
+            width: 1130px;
+            height: 600px;
+            position:relative;
+            left:70px;
+            top: 40px;
+            border-radius: 25px;
+            /* margin: 20px; */
+            /* padding: 20px; */
+            
+        }
+        .text
+        {
+            position: relative;
+            left:90px;
+            width: 400px;
+            height: 30px;
+            border-radius: 5px;
+            /* border:none; */
+            background-color:aliceblue;
+            box-shadow: 10px 10px #888888;
+            margin:10px;
+            padding:10px;
+            border-width: 0.9px;
+            color: rgb(135, 49, 63);
+        }
+        .textarea
+        {
+            width:870px;
+            height: 150px;
+            position: relative;
+            left:97px;
+            background-color:aliceblue;
+            box-shadow: 10px 10px #888888;
+            border-width: 0.9px;
+            border-radius: 5px;
+            text-align:center;
+            color: rgb(135, 49, 63);
+        }
+        .btn
+        {
+            position: relative;
+            left: 45%;
+            width:94px;
+            height: 40px;
+            background-color: rgb(27, 146, 27);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: large;
+        }
+        .img
+        {
+            position: relative;
+            left:97px;
+            margin:8px;
+            width:200px;
+            border-radius: 10px;
+        }
+        .img1
+        {
+            position: relative;
+            left:250px;
+            margin:15px;
+            width:200px;
+            border-radius: 10px;
+        }
+    </style>
+    </head>
+   
+        <form action="Contact" method="post">
+    <div class="container">
+        <h1 style="text-align:center;position:relative;top:30px;color:green;">Do You Have Any Query Related Our Products?</h1>
+        <h3 style="text-align:center;position:relative;top:30px;color:black;font-size:30px;" >Fill the documents given below</h3>
+   
+    <table>
+        <tr>
+            <td><input type="text" class="text" placeholder="Enter Your Name" name="sname"></td>
+            <td><input type="email" class="text" placeholder="Enter Your Email Address" name="email"></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td><input type="text" class="text" placeholder="Country" name="country"></td>
+            <td><input type="text" class="text" placeholder="Enter Your Mobile No" name="mob"></td>
+        </tr>
+    </table>
+    <br>
+    <input type="text" class="textarea" placeholder="Enter Your Message/Requirement"  name="querys">
+    <br><br>
+    <br>
+    <input type="submit" class="btn" value="Submit">
+</div>
+</form>
+<br><br><br><br><br><br><br><br>
+<h1 style="text-align:center ;">Chat-Pati worldwide Locations</h1>
+<h4 style="text-align:center ;color: rgb(126, 122, 116);">Chat-pati is expanded in various countries</h4>
+<table>
+    <thead>
+    <tr>
+        <th><img class="img" src="images\india.png"></th>
+        <th><img class="img" src="images\aus.png"></th>
+        <th><img class="img" src="images\sa.png"></th>
+        <th><img class="img" src="images\singa.png"></th>
+        <th><img class="img" src="images\cameroon.png"></th>
+    </tr>
+</thead>
+<tbody style="position: relative;left:170px;color: rgb(109, 103, 95);">
+    <tr>
+        <td>INDIA</td>
+        <td>AUSTRALIA</td>
+        <td>SOUTH AFRICA</td>
+        <td>SINGHAPORE</td>
+        <td>CAMEROON</td>
+    </tr>
+</tbody>
+</table>
+<table>
+    <thead>
+    <tr>
+        <th><img class="img1" src="images\uk.png"></th>
+        <th><img class="img1" src="images\vietnam.png"></th>
+        <th><img class="img1" src="images\trinidad.png"></th>
+        
+    </tr>
+</thead>
+<tbody style="position: relative;left:310px;color: rgb(109, 103, 95);margin: 20px;">
+    <tr>
+        <td>UNITED KINGDOM</td>
+        <td>VIETNAM</td>
+        <td>TRINIDAD</td>
+        
+    </tr>
+</tbody>
+</table>
+</form>
+   
+</html>

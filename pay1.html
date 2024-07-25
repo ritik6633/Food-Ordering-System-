@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        body{
+            background-color: black;
+            
+
+        }
+        .container{
+            background-color:whitesmoke;
+            width: 600px;
+            height: 560px;
+            position: relative;
+            left: 26.5%;
+            top: 1%;
+            text-align: center;
+            /*background: linear-gradient(to bottom,yellow 0%, rgb(183, 55, 76) 100%)*/;
+             background-color: white; 
+             
+            
+        }
+        #text
+        {
+            width:560px;
+            height:30px;
+            text-align:left;
+            color: black;
+            font-size: large;
+            background: none;
+            border-left: none ;
+            border-right: none;
+            border-top: none;
+            border-color: cadetblue;
+            outline: none;
+
+            
+        }
+        #text:hover
+        {
+            color:rgb(242, 7, 46);
+            
+        }
+        #text1
+        {
+            width:250px;
+            height:30px;
+            text-align:left;
+            color: black;
+            font-size: large;
+            background: none;
+            border-left: none ;
+            border-right: none;
+            border-top: none;
+            border-color: cadetblue;
+            outline: none;
+            margin: 20px;
+
+            
+        }
+        #text1:hover
+        {
+            color:rgb(242, 7, 46);
+            
+        }
+        .btn
+        {
+            width: 560px;
+            height: 40px;
+            background-color: green;
+            border: none;
+            font-size: large;
+        
+        }
+        .btn:hover
+        {
+            background-color: orangered;
+            color: yellow;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form action="pay1" method="post">
+    <div class="container">
+        <h2 style="position:relative;top:5%;font-size:35px;">Chicken-Tikka</h2>
+        <table>
+            <tr>
+                <td style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:20px;position: relative;left:30px;">Payments</td>
+                <td><img style="width: 80px;height:80px;position: relative;left:160px;" src="images/mastrecard-removebg-preview.png"></td>
+                <td><img style="width: 70px;height:70px;position: relative;left:170px;" src="images/PayPal-Logo-removebg-preview.png"></td>
+                <td><img style="width: 30px;height:30px;margin: 10px;position: relative;left:180px;" src="images/Visalogo-removebg-preview.png"></td>
+                <td><img style="width: 80px;height:80px;position: relative;left:190px;" src="images/Discover-logo-removebg-preview.png"></td>
+            </tr>
+        </table>
+       
+        <input type="text" id="text" placeholder="Name a card*" name="Cname" required><br><br><br><br>
+        <input type="text" id="text" placeholder="Card Number*" name="Cnum" required><br><br><br>
+        <table>
+            <tr>
+                <td><input type="date" id="text1" placeholder="Expiry Date*" name="Edate" required></td>
+                <td><input type="text" id="text1" placeholder="Security Code*" name="Sec" required></td>
+            </tr>
+        </table>
+        <br><br><br>
+        <input type="submit" class="btn" value="Pay">
+    </div>
+    </form>
+</body>
+</html>

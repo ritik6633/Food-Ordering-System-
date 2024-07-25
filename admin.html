@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0; 
+        }
+        ul{
+            
+            display:inline-flex;
+            grid-template-columns: auto auto;
+            margin: 18px;
+            position:relative;
+            left: 10%;
+            font-size: 20px; 
+            
+            
+        }
+        ul li{
+            list-style-type: none;
+            margin: 0 30px;
+            position:left;
+            align-items:center;
+            color:black;  
+            
+        }
+        .bhai{
+            height: 33px;
+            width: 209px;
+            position: relative;
+            left: 4%;
+         
+        }
+        .img
+        {
+            width:1280px;
+            margin: 0;
+            padding: 0;
+            height: 537px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="admin" method="post">
+    <header>
+        <nav>
+            <img class="bhai" src="images/Chat-Pati new2.png">
+            <ul>
+                
+                <li><a style="text-decoration:none ;" href="order1.jsp">Orders</a></li>
+                <li><a style="text-decoration:none ;" href="pay1.jsp">Payment History</a></li>
+                <li><a style="text-decoration:none ;" href="deliver.html">Deliver orders</a></li>
+                <li><a style="text-decoration:none ;" href="Contact.jsp">View Feedback</a></li>
+                <li><a style="text-decoration:none ;" href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="img" src="images/admin.jpg">
+    </form>
+</body>
+</html>
